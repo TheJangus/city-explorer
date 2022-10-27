@@ -70,11 +70,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 /////////////////////////////////////////////////
+////////////////////////////
+/////////////////////
+/////////
 
-# Project Name
+# City-Explorer
 
 **Author**: J.Angus
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 3.1.1 (increment the patch/fix version number if you make more commits past your first submission)
+
+[trello board](https://trello.com/b/nMdmyI20/city-explorer)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
@@ -102,3 +107,16 @@ Start time: _12:30am____
 Finish time: _2:12am____
 
 Actual time needed to complete: _1.75 Hours____
+
+//////////////////////////////////
+
+Procure an API key from the weather API provider, if you haven't already.
+Add an environment variable named WEATHER_API_KEY to your server, and use it appropriately in your code.
+Access the query parameters from the web client request object, to identify the exact location for which the web client is requesting weather info.
+Update the callback for your /weather route so that, instead of returning data from the weather.json file, it makes a Axios request to the weather API with the latitude and longitude from the web client.
+Use your class to shape the API results.
+Respond to the web client with an array of objects corresponding to each day in the API data. See the sample response.
+
+
+Ensure your web client still renders the weather data correctly.
+Add an item

@@ -1,0 +1,10 @@
+.jumbotron {
+    background-color: #22515f;
+  }
+ 
+  #errorMessage {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 26px;
+    border: dashed 3px #2a6475c2;
+    border-width: 100px;
+  }
